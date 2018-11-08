@@ -1,5 +1,5 @@
 {
-  "name": "mbview",
+  "name": "@jingsam/mbview",
   "version": "2.0.0",
   "description": "Watch mbtiles in your localhost",
   "bin": {
@@ -35,10 +35,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mapbox/mbview.git"
+    "url": "git://github.com/jingsam/mbview.git"
   },
   "bugs": {
-    "url": "https://github.com/mapbox/mbview/issues"
+    "url": "https://github.com/jingsam/mbview/issues"
   },
-  "homepage": "https://github.com/mapbox/mbview#readme"
+  "homepage": "https://github.com/jingsam/mbview#readme"
 }
