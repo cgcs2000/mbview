@@ -56,15 +56,31 @@
 var center = [<%= center %>];
 center = [center[0], center[1]];
 
+var style = {
+  version: 8,
+  sources: {},
+  layers: [
+    {
+      id: 'background',
+      type: 'background',
+      paint: {
+        'background-color': 'hsl(55, 1%, 20%)'
+      }
+    }
+  ]
+};
+
 mapboxgl.accessToken = '<%= accessToken %>';
 var map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/mapbox/<%= basemap %>-v9',
+  style: style,
   center: center,
   zoom: <%= zoom %>,
   hash: true,
   maxZoom: 30
 });
+
+map.showTileBoundaries = true;
 
 var layers = {
   pts: [],

@@ -2,6 +2,8 @@
 
 # mbview
 
+> This repository is a fork of `mapbox/mbview`, but for CGCS2000.
+
 Watch MBTiles in your localhost
 
 ![demo](https://raw.githubusercontent.com/mapbox/mbview/master/demo.gif)

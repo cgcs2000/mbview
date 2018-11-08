@@ -12,7 +12,8 @@ var utils = require('./utils');
 var mbtiles = argv._;
 var accessToken = argv.MapboxAccessToken ||
   process.env.MAPBOX_ACCESS_TOKEN ||
-  process.env.MapboxAccessToken;
+  process.env.MapboxAccessToken ||
+  'no-token';
 
 if (argv.version || argv.v) {
   console.log(utils.version());
