@@ -1,6 +1,6 @@
 {
-  "name": "@jingsam/mbview",
-  "version": "2.0.1",
+  "name": "@cgcs2000/mbview",
+  "version": "2.0.0",
   "description": "Watch mbtiles in your localhost",
   "bin": {
     "mbview": "./cli.js"
@@ -25,7 +25,7 @@
     "tape": "^4.5.1"
   },
   "dependencies": {
-    "@mapbox/mbtiles": "^0.9.0",
+    "@cgcs2000/mbtiles": "^0.10.0",
     "d3-queue": "^2.0.3",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
@@ -35,10 +35,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jingsam/mbview.git"
+    "url": "git://github.com/cgcs2000/mbview.git"
   },
   "bugs": {
-    "url": "https://github.com/jingsam/mbview/issues"
+    "url": "https://github.com/cgcs2000/mbview/issues"
   },
-  "homepage": "https://github.com/jingsam/mbview#readme"
+  "homepage": "https://github.com/cgcs2000/mbview#readme"
 }
