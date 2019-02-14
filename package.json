@@ -25,7 +25,7 @@
     "tape": "^4.5.1"
   },
   "dependencies": {
-    "@cgcs2000/mbtiles": "^0.10.0",
+    "@cgcs2000/mbtiles": "^0.10.1",
     "d3-queue": "^2.0.3",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
